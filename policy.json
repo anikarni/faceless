@@ -1,4 +1,12 @@
 {
-  "name" : "union-template",
-  "rules": [ ]
+  "name" : "faceless",
+  "url": "https://github.com/jkarni/faceless",
+  "rules": [
+    {
+      "sites": ["*://www.facebook.com/*", "*://facebook.com/*"],
+      "actions": [
+        { "action": "block", "message": "This website does not comply with our demands for privacy!" }
+      ]
+    }
+  ]
 }
