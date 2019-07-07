@@ -1,6 +1,6 @@
 {
   "name" : "faceless",
-  "url": "https://github.com/jkarni/faceless",
+  "url": "https://github.com/anikarni/faceless",
   "rules": [
     {
       "sites": ["*://www.facebook.com/*", "*://facebook.com/*"],
